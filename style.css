@@ -1,8 +1,13 @@
 
 main{
+  /*
+  Themiya's test
+  */
   background: rgb(195,234,255);
   background: linear-gradient(0deg, rgba(195,234,255,1) 35%, rgba(0,212,255,1) 100%);
 
+
+  
   position:relative;
   height:600px; width:800px;
   text-align:center;
