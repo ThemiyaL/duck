@@ -4,19 +4,67 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <title>replit main</title>
-  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="myFirstCss.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body >
   <main >
-    
+    <form name = "myFirstForm" 
+    id = "myFirstForm" 
+    action = "https://www.google.com"
+    method = "get"
+    >
+      <h1>My first form</h1>
+    <label class = "required">
+      my name
+      <input type = "text"
+       name = "my_name"
+       value = "mr.good.pants"
+       placeholder = "GIMME YOUR NAME"
+      />
+    </label>
+    <label class = "required">
+      credit card number
+      <input 
+      type = "credit card"
+       name = "credit card number"
+       value = "credit card value"
+       placeholder = "GIMME YOUR CREDIT CARD NUMBER"
+      />
+    </label>
+    <label class = "required">
+      expiration date
+      <input 
+      type = "date"
+       name = "day"
+       value = "1/10/1973"
+      />
+    </label>
+    <label class = "required">
+      csv number
+      <input 
+      type = "password"
+       name = "csv number"
+       value = "csv value"
+       placeholder = "GIMME YOUR CSV NUMBER"
+      />
+    </label>
+    <label class = "required">
+      zip code
+      <input type = "password"
+       name = "password"
+       value = "password value"
+       placeholder = "GIMME YOUR PASSWORD"
+      />
+    </label>
+    </form>
     <div class="character"  id="main">
       <div class="head" ></div>
     </div>
     
   </main>
   Hello world
-  <script src="script.js"></script>
+  <script src="myFirstScrjs.js"></script>
 </body>
 
 </html>

@@ -1,4 +1,18 @@
-body{
-    background-color: aquamarine;
-    color: violet;
+h1{
+    color: red;
+    background-color: blue;
+}
+form{
+    background: yellow;
+    border: 1rem solid green;
+    padding: .5in;
+    margin: .25in;
+    width: 1000px;
+}
+form label{
+    display: block;
+    margin: 0.1in; 
+}
+form label.required{
+    border: 5px solid black;
 }
