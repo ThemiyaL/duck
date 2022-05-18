@@ -9,7 +9,7 @@ var goBTN = console.log(document.getElementById("go"));
 
 goBTN.addEventListener("click", doWhatIWant);
 
-function doWhatIWant(){
+function doWhatIWant(event){
     console.log("this is my this: ");
     console.log(this);
     console.log("this is my event");
